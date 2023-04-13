@@ -6,7 +6,6 @@ library(stringr)
 
 
 
-library(stringr)
 
 # Create an empty data frame to store the results
 Vibrio_CAZymes_Summery <- data.frame(CAZyme_fam = c("AA","CBM","CE","GH","GT","PL","cohesin"))
