@@ -68,6 +68,11 @@ str(Vibrio_CAZymes_table)
 Vibrio_CAZymes_table[is.na(Vibrio_CAZymes_table)] <- 0
 Vibrio_CAZymes_Summery[is.na(Vibrio_CAZymes_Summery)] <- 0
 
+# Save an object to a file
+saveRDS(Vibrio_CAZymes_table, file = "Vibrio_CAZymes_table.rds")
+saveRDS(Vibrio_CAZymes_Summery, file = "Vibrio_CAZymes_Summery.rds")
+
+
 rownames(Vibrio_CAZymes_table) <- Vibrio_CAZymes_table$CAZyme
 Vibrio_CAZymes_table <- Vibrio_CAZymes_table[,-1] 
 Vibrio_CAZymes_table_t <- t(Vibrio_CAZymes_table)
@@ -80,7 +85,7 @@ colnames(Vibrio_CAZymes_table_t) <- paste0("Hmm", "!", colnames(Vibrio_CAZymes_t
 colnames(Vibrio_CAZymes_Summery_t) <- paste0("Hmm_Big", "!", colnames(Vibrio_CAZymes_Summery_t))
 
 
-write.csv(Vibrio_CAZymes_table_t, "Vibrio_CAZymes_table.csv", row.names = TRUE, quote = FALSE)
-write.csv(Vibrio_CAZymes_Summery_t, "Vibrio_CAZymes_Summery.csv", row.names = TRUE, quote = FALSE)
+#write.csv(Vibrio_CAZymes_table_t, "Vibrio_CAZymes_table.csv", row.names = TRUE, quote = FALSE)
+#write.csv(Vibrio_CAZymes_Summery_t, "Vibrio_CAZymes_Summery.csv", row.names = TRUE, quote = FALSE)
 
 

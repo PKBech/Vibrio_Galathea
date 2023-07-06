@@ -1,0 +1,19 @@
+product	most_similar_known_cluster_description	most_similar_known_cluster_id	n()
+1	['NRPS', 'arylpolyene']	APE Vf	BGC0000837	65
+2	['NRPS']	acinetobactin	BGC0000294	10
+3	['NRPS']	crochelin A	BGC0002001	11
+4	['NRPS']	vulnibactin	BGC0000460	27
+5	['PUFA']	eicoseicosapentaenoic acid	BGC0000865	7
+6	['RiPP-like']			268
+7	['RiPP-like']	eicosapentaenoic acid-like compound	BGC0000864	37
+8	['arylpolyene']	APE Vf	BGC0000837	29
+9	['betalactone']			242
+10	['betalactone']	lipopolysaccharide	BGC0000774	44
+11	['butyrolactone']			9
+12	['ectoine']	ectoine	BGC0000854	33
+13	['ectoine']	ectoine	BGC0000855	4
+14	['hglE-KS', 'PUFA']	eicoseicosapentaenoic acid	BGC0000865	268
+15	['phosphonate', 'NRPS']			6
+16	['siderophore']	vibrioferrin	BGC0000947	137
+17	['terpene']			6
+18	['thioamitides']			10
